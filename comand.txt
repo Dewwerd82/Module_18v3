@@ -1,0 +1,10 @@
+npm init -y
+npm install --save-dev webpack webpack-cli webpack-dev-server
+type >> webpack.config.js
+npm install -D html-webpack-plugin
+MKDIR -p source
+npm i -D css-loader style-loader
+npm i -D sass-loader sass
+npm i -D @babel/core babel-loader @babel/preset-env
+npm i -D moment
+npm run build
